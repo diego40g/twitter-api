@@ -8,7 +8,7 @@ const client=new TwitterApi({
     accessSecret:process.env.ACCESSSECRET
 })
 
-client.v2.singleTweet('1487146242891296770', {
+client.v2.singleTweet('1487146242810241997', {
     'tweet.fields': [
         'organic_metrics',
      ],
