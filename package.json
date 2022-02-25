@@ -9,7 +9,10 @@
   "author": "Diego Paz",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.2",
     "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
     "twitter-api-v2": "^1.10.0"
   }
 }
