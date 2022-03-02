@@ -16,8 +16,8 @@ router.get('/', (req, res) => {
 router.post('/test',(req,res)=>{
     res.json(
         {
-            "AUTH_TOKEN":req.body.auth_token,
-            "AUTH_TOKEN_SECRET":req.body.auth_token_session
+            "auth_token":req.body.auth_token,
+            "auth_token_session":req.body.auth_token_session
         }
     )
 })
